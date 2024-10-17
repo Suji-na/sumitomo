@@ -1,0 +1,389 @@
+/******************************************************
+
+ head
+ 
+******************************************************/
+/*-------------------------------------------------------------------*/
+html, body{
+	background:#fff;
+}
+
+h2.ttl{
+	margin: 90px 0 40px 0;
+	font-size:40px;
+	font-family: 'RyuminPro', "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "HiraMinProN-W3", "ＭＳ Ｐ明朝", "MS PMincho", 'GaramondPro', serif;
+	font-weight: normal;
+}
+
+#submaincontainer{
+	width:1300px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+#submaincontainer ul li{
+	color:#888;
+}
+#submaincontainer ul li span{
+	color:#000;
+}
+#submaincontainer ul li a{
+	color:#000;
+	text-decoration:underline;
+}
+#submaincontainer ul li a:hover{
+	color:#888;
+	text-decoration:none;
+}
+
+.sitemap_area{
+	font-size:16px;
+	line-height: 1.8;
+}
+.sitemap_area a {
+	display: inline-block;
+	text-indent: 0;
+}
+.sitemap_area li {
+	text-indent: -2em;
+	padding-left: 2em;
+	padding-bottom: 0.8em;
+}
+.sitemap_area li br {
+    display: none;
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* w1600 Site*/
+/**************************************************************************************/
+/**************************************************************************************/
+@media screen and (max-width: 1600px) {
+
+h1,
+#h_btn002,
+#h_btn003,
+#h_btn001,
+#submaincontainer dl {
+}
+#submaincontainer{
+	width:81.25vw;
+}
+#submaincontainer #map1{
+	width:81.25vw;
+	margin:0 auto 0 auto;
+}
+
+#GoogleMap {
+	width:45%;
+}
+#PrintMap {
+	width:45%;
+}
+
+
+/*-------------------------------------------------------------------*/
+html, body{
+	background:#fff;
+}
+
+
+#GoogleMap {
+	display: block;
+	margin-top: 0.625vw;
+}
+
+.mr{
+	padding-right: 1.25vw;
+}
+
+#submaincontainer .ttl img{
+	float:left;
+}
+
+#subheader{
+	width:39.375vw;
+	margin-top: 1.25vw;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	float: none;
+	height: 4.375vw;
+}
+#subheader h2{
+	width:17.375vw;
+	float:left;
+}
+#subheader dl{
+	width:14.75vw;
+	float:right;
+}
+#subheader dt{
+	width:7.438vw;
+	float:left;
+}
+#subheader dd{
+	width:7.313vw;
+	float:left;
+}
+#subwrapper{
+	background-color:#000;
+	line-height:160%;
+}
+#submaincontainer dl{
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 1.25vw;
+	padding-left: 0;
+	width: 22.188vw;
+}
+#submaincontainer dt{
+	width:12.125vw;
+	float:left;
+}
+#submaincontainer dd{
+	float:left;
+}
+
+#footerbana{ display:none; }
+
+#subfooter{
+	height:5.313vw;
+	position: relative;
+	margin-top: 0.938vw;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 43.75vw;
+	clear: both;
+}
+#subfooter  #footmail{
+	width:14.375vw;
+	height: 0.75vw;
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: 3.438vw;
+	overflow: hidden;
+}
+
+#subfooter  #freedial{
+	width:43.75vw;
+	height:4.25vw;
+	position:absolute;
+	z-index:0;
+	left:0px;
+	top:0px;
+	overflow: hidden;
+}
+#subfooter  #freedial img {
+	width: 60vw;
+	max-width: 60vw;
+}
+
+#subfooter #footseotext {
+	font-size:0.625vw;
+	line-height:0.75vw;
+	color:#999;
+	text-align:left;
+	position:absolute;
+	left:0px;
+	top:5vw;
+	width:39.375vw;
+}
+
+.cap {
+	font-size: 0.625vw;
+	line-height: 150%;
+	color: #666666;
+	margin-bottom: 0.625vw;
+	margin-top: 0.625vw;
+}
+
+#subfooter_sp{
+	display:none;
+}
+
+#footer_cp {
+	display:none;
+}
+
+#map1 {
+	width: 43.75vw;
+}
+#map2 {
+	width: 39.375vw;
+}
+
+#parkingTxt {
+	text-align: center;
+	font-size: 1vw;
+	font-weight: bolder;
+	color: #FFFFFF;
+	line-height: 1.2em;
+	padding: 0.4em 0;
+	background-color: #000000;
+}
+#parkingTxt span {
+	white-space: nowrap;
+}
+
+}
+
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* w1300 Site*/
+/**************************************************************************************/
+/**************************************************************************************/
+@media screen and (max-width: 1300px) {
+
+#submaincontainer #map1{
+	width:100%;
+	margin:0 auto 0 auto;
+}
+
+#btnArea{
+	display:block;
+	width:100%;
+}
+#btnArea img{
+    margin-top: 40px;
+    margin-left: calc((100vw - 560px) / 2);
+}
+#GoogleMap{
+	width:100vw;
+}
+#PrintMap{
+	width:100vw;
+}
+
+#submaincontainer .zip span{
+    display: block;
+    margin-top: 40px;
+}
+.cap{
+    text-align: center;
+}
+
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* SP Site*/
+/**************************************************************************************/
+/**************************************************************************************/
+@media screen and (max-width: 640px) {
+
+#head{
+	width: 100%;
+	height: 65px;
+}
+#head .logo {
+	position:absolute;
+	width:186px;
+	height:62px;
+	top:5px;
+	left:0px;
+}
+
+#btnArea{
+	display:block;
+	width:100%;
+}
+
+#GoogleMap {
+	width:100%;
+    margin: auto;
+}
+
+#GoogleMap img { width:100%; margin: auto; }
+
+#h_btn002 { display:none; }
+#h_btn003 { display:none; }
+#h_btn004 { display:none; }
+#h_btn001 { display:none; }
+
+#submaincontainer{
+	width:92%;
+}
+#submaincontainer .ttl{
+    width:100%;
+    height: auto;
+    margin: 5% 0 10%;
+    font-size: 250%;
+}
+#submaincontainer .zip{
+	font-size:22px;
+    margin: 40px auto;
+}
+
+#submaincontainer .zip span{
+    font-size: 13px;
+	margin-top:0;
+}
+
+.map_cap1 {
+	width:96%;
+	margin:2%;
+}
+.map_cap2 {
+	width:96%;
+	margin:6% 2% 2% 2%;
+}
+.cap {
+	width:84%;
+	margin:8%;
+	text-align: center;
+}
+#footerbana {
+	height:100%;
+}
+#footerbana .btn002{
+	height:100%;
+}
+#footerbana .btn003{
+	height:100%;
+}
+#footerbana .btn001{
+	height:100%;
+}
+
+#footerbana{ display:block; }
+
+#subfooter{
+	display:none;
+}
+
+#subfooter_sp{
+	display:block;
+	margin-top:4px;
+}
+
+#footer_cp {
+	background: #fff;
+	display:block;
+}
+
+
+#map1 {
+	width: 100%;
+}
+#map2 {
+	width: 100%;
+}
+
+#parkingTxt {
+	font-size: 15px;
+	line-height: 1.3em;
+	padding: 0.2em 0;
+}
+
+
+
+}

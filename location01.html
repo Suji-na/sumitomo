@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# website: https://ogp.me/ns/website#">
+    <meta charset="Shift_JIS">
+    <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords"
+        content="ロケーション,シティタワー泉一丁目,泉一丁目 マンション,泉一丁目 新築マンション,泉一丁目,久屋大通,地下鉄桜通線,名古屋市東区,マンション,新築マンション,分譲マンション,住友不動産" />
+    <meta name="description"
+        content="ロケーションページ。地下鉄桜通線・地下鉄名城線「久屋大通」まで徒歩8分。住友不動産の新築マンションが泉一丁目に誕生。【すみふ泉一丁目】名古屋市東区のマンションなら住友不動産。" />
+    <title>ロケーション｜【公式】シティハウス弦巻｜桜新町の新築マンション｜住友不動産</title>
+    <meta property="og:url" content="https://www.sumitomo-rd-mansion.jp/tokai/izumi1/location01.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ロケーション｜【公式】シティハウス弦巻｜桜新町の新築マンション｜住友不動産" />
+    <meta property="og:description"
+        content="ロケーションページ。地下鉄桜通線・地下鉄名城線「久屋大通」まで徒歩8分。住友不動産の新築マンションが泉一丁目に誕生。【すみふ泉一丁目】名古屋市東区のマンションなら住友不動産。" />
+    <meta property="og:site_name" content="ロケーション｜【公式】シティハウス弦巻｜桜新町の新築マンション｜住友不動産" />
+    <meta property="og:image" content="https://www.sumitomo-rd-mansion.jp/tokai/izumi1/images/top/ogp.jpg" />
+
+    <link rel="stylesheet" href="./font/fontawesome/./css/all.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/top.css" />
+    <link rel="stylesheet" href="./css/location.css" />
+    <link rel="stylesheet" href="./css/leaflet.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" media="screen">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link href="/proptopics/css/topics.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body id="location1" class="fade">
+
+    <div class="body-wrapper position-relative">
+        <header id="header">
+            <div class="header-wrapper d-flex align-items-flex-start justify-content-between">
+                <h1 class="header-logo">
+                    <a href="index.html">
+                        <figure><img src="./images/common/logo-pc.jpg" alt=""></figure>
+                        <p>久屋大通徒歩8分｜シティタワー泉一丁目｜泉一丁目 新築マンション｜ロケーション｜すみふ泉一丁目｜住友不動産</p>
+                    </a>
+                </h1>
+                <div class="header-right d-flex">
+                    <script type="text/javascript"
+                        src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1&LINK=header"></script>
+
+                    <!--エントリーボタン-->
+                    <!-- <div class="header-btn bg_btn">
+                        <p>オンライン<br>見学会予約 </p>
+                    </div>
+                    <a href="https://www.sumitomo-rd-mansion.jp/tokai/higashibetsuin/catalog.cgi" target="_blank"
+                        class="header-btn bg_btn bg_btn--btn001">
+                        <p>資料請求</p>
+                    </a> -->
+                    <!--エントリーボタン-->
+
+                    <div id="sp-menu-btn" class="hamburger">
+                        <p>MENU</p>
+                        <div class="menu-trigger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu black">
+                <div class="container d-flex flex-wrap justify-content-between align-items-start">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="./"><span class="f-en">TOP</span><br>トップ</a>
+                            </li>
+                            <li>
+                                <a href="concept.html"><span class="f-en">CONCEPT</span><br>コンセプト</a>
+                            </li>
+                            <li>
+                                <p><span class="f-en">DESIGN</span><br>デザイン</p>
+                            </li>
+                            <li>
+                                <p><span class="f-en">COMMON SPACE</span><br>共用空間</p>
+                            </li>
+                            <li>
+                                <p><span class="f-en">PRIVATE SPACE</span><br>室内空間</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p><span class="f-en">PLAN</span><br>間取り</p>
+                            </li>
+                            <li>
+                                <p><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</p>
+                            </li>
+                            <li>
+                                <p><span class="f-en">STRUCTURE・SAFETY</span><br>構造・防災</p>
+                            </li>
+                            <li class="has-child">
+                                <p class="active"><span class="f-en">LOCATION</span><br>ロケーション</p>
+                                <div class="sub-menu">
+                                    <a href="location01.html">都心と自然が調和する世田谷アドレス</a>
+                                    <a href="location02.html" class="finish">閑静な住環境と利便性を備えた桜新町</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="access.html"><span class="f-en">ACCESS</span><br>アクセス</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-menu-right">
+                        <ul class="header-menu-btn">
+                            <script type="text/javascript"
+                                src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1&LINK=header-menu"></script>
+                        </ul>
+                        <div class="header-menu-other">
+                            <ul>
+                                <li><a href="map.html" target="_blank">現地案内図</a></li>
+                                <li><a href="/XXX/YYY/faq.cgi" target="_blank">FAQ</a></li>
+                                <li><a href="javascript:outline();">物件概要</a></li>
+                                <!-- <li>
+                                    <p>マンション情報ブログ</p>
+                                </li> -->
+                            </ul>
+                            <!-- <div class="header-sns">
+                                <a href="https://twitter.com/ch_yushimasc" target="_blank"><img
+                                        src="./images/common/icn_twitter.png" alt="Twitter"></a>
+                                <a href="https://www.instagram.com/ch_yushimasc" target="_blank"><img
+                                        src="./images/common/icn_instagram.png" alt="Instagram"></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div><!--//header-menu -->
+            <div class="sp-menu">
+                <nav>
+                    <ul>
+                        <li><a href="./">トップ</a></li>
+                        <li><a href="concept.html">コンセプト</a></li>
+                        <li>デザイン</li>
+                        <li>共用空間</li>
+                        <li>室内空間</li>
+                        <li>間取り</li>
+                        <li>設備・仕様</li>
+                        <li>構造・防災</li>
+                        <li><a href="location01.html">ロケーション</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                        <li><a href="map.html" target="_blank">現地案内図</a></li>
+                        <li><a href="javascript:outline();">物件概要</a></li>
+                        <!-- <li><a href="javascript:blog();">マンション情報ブログ</a></li> -->
+                        <li><a href="/XXX/YYY/faq.cgi" target="_blank">FAQ</a></li>
+                        <script type="text/javascript"
+                            src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1&LINK=sp-menu"></script>
+                    </ul>
+                </nav>
+                <!-- <div class="sp-menu-sns d-flex justify-content-center align-items-center">
+                    <a href="https://twitter.com/ch_yushimasc" target="_blank"><img
+                            src="./images/common/icn_twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/ch_yushimasc" target="_blank"><img
+                            src="./images/common/icn_instagram.png" alt="Instagram"></a>
+                </div> -->
+            </div><!--//sp-menu -->
+        </header>
+
+        <!-- #header -->
+        <div class="breadcrumb-txt">
+            <a href="./index.html">シティハウス弦巻 ｜桜新町 マンション｜トップ </a>＞ ロケーション｜世田谷区
+        </div>
+
+        <main class="f-location">
+
+            <!-- LOCATION TAB SECTION -->
+            <div class="location-tab">
+                <a href="#" class="location-tab__link -blue"><span>都市と自然が調和する<br class="sp">世田谷アドレス</span></a>
+                <a href="./location02.html" class="location-tab__link"><span>閑静な住環境と利便性を<br class="sp">備えた桜新町</span></a>
+            </div>
+
+            <div class="top-mv">
+                <figure class="pc">
+                    <img src="./images/location/mv/mv-pc.jpg" alt="ロケーション" class="w_100">
+                </figure>
+                <figure class="sp">
+                    <img src="./images/location/mv/mv-sp.jpg" alt="ロケーション" class="w_100">
+                </figure>
+                <h1 class="top-mv-ttl">
+                    <span>Location<span class="top-mv-rgt pc">SETAGAYA</span></span>
+                    <span class="top-mv-sub">ロケーション<span class="top-mv-rgt sp">SETAGAYA</span></span>
+                </h1>
+                <span
+                    class="top-mv-desc"><span>砂の岬（900m）</span><span>JRA馬事公苑（約1.3km）</span><span>NEWOLD（約330m）</span></span>
+            </div><!--//top-mv -->
+
+            <div class="location-block">
+
+                <!-- SETAGAYA SECTION -->
+                <div class="setagaya">
+
+                    <div class="p-container">
+
+                        <!-- SETAGAYA TOP SECTION -->
+                        <div class="setagaya-block">
+                            <h2 class="location-common__ttl fadein">SETAGAYA</h2>
+                            <div class="setagaya-block-row">
+                                <div class="setagaya-block-col fadein">
+                                    <img src="./images/location/setagaya/setagaya-block-col__img01.jpg" alt="SETAGAYA">
+                                    <!-- <img src="./images/location/setagaya/setagaya-block-col__img01-sp.jpg" alt="SETAGAYA" class="sp"> -->
+                                    <span class="top-mv-desc">image photo</span>
+                                </div>
+                                <div class="setagaya-block-col fadein">
+                                    <img src="./images/location/setagaya/setagaya-block-col__img02.jpg" alt="SETAGAYA">
+                                    <span class="top-mv-desc">image photo</span>
+                                </div>
+                                <div class="setagaya-block-col fadein">
+                                    <img src="./images/location/setagaya/setagaya-block-col__img03.jpg" alt="SETAGAYA">
+                                    <span class="top-mv-desc">砧公園<br class="sp">（約2.3km）</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- SETAGAYA BOTTOM SECTION -->
+                    <div class="setagaya-wpr">
+                        <div class="setagaya-card fadein">
+                            <h3 class="section__ttl">都市と自然が調和する<br>世田谷で描く<br class="sp">理想の暮らし。</h3>
+                            <p class="section__txt">
+                                トレンドのグルメ＆スポットが揃う、<br class="pc">人々が憩う緑豊かな公園、<br>都会の輝きと自然の癒しが<br
+                                    class="sp">調和する世田谷で、<br>ゆっくりと理想の暮らしが動き出す。</p>
+                        </div>
+                        <div class="setagaya-card fadein">
+                            <img src="./images/location/setagaya/setagaya-card01.png" alt="都市と自然が調和する世田谷で描く理想の暮らし。">
+                            <span class="top-mv-desc">image photo</span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SECTION LOCATION SECTION -->
+                <div class="section-location">
+                    <img src="./images/location/common/section-location01.jpg" alt="使いこなす。" class="pc">
+                    <img src="./images/location/common/section-location01-sp.jpg" alt="使いこなす。" class="sp">
+                    <div class="section-location-block">
+                        <div class="section-location__txt fadein">
+                            <p>使いこなす。</p>
+                            <p>心弾む２つの街を</p>
+                        </div>
+                    </div>
+                    <span class="top-mv-desc">image photo</span>
+                </div>
+
+                <!-- UPGRADE SECTION -->
+                <div class="upgrade">
+                    <h2 class="location-common__ttl fadein">FUTAKO TAMAGAWA</h2>
+
+                    <!-- UPGRADE TOP SECTION -->
+                    <div class="upgrade-block">
+                        <img src="./images/location/upgrade/upgrade-block01.jpg" alt="FUTAKO TAMAGAWA"
+                            class="upgrade-block__img fadein">
+                        <img src="./images/location/upgrade/upgrade-block02.jpg" alt="FUTAKO TAMAGAWA"
+                            class="upgrade-block__abs fadein">
+
+                    </div>
+
+                    <!-- UPGRADE BOTTOM SECTION -->
+                    <div class="upgrade-wpr">
+                        <div class="upgrade-card fadein">
+                            <img src="./images/location/upgrade/upgrade-card01.jpg" alt="都市と自然が調和する世田谷で描く理想の暮らし。">
+                            <span class="top-mv-desc">image photo</span>
+                        </div>
+                        <div class="upgrade-card fadein">
+                            <h3 class="section__ttl">日常生活を<br>アップグレードする<br>二子玉川。</h3>
+                            <p class="section__txt">
+                                東急田園都市線「桜新町」駅から<br>「二子玉川」駅まで直通5分（4分）。<br>大型複合施設「二子玉川ライズ」（約3.6km）<br>をはじめ、いつもの日常を豊かにする<br>グルメやショップが揃っています。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CHARM SECTION -->
+                <div class="charm">
+                    <h2 class="location-common__ttl fadein">SANGEN-JAYA</h2>
+
+                    <div class="charm-wpr">
+                        <div class="charm-card">
+                            <div class="charm-card__flex">
+                                <div class="charm-card__img fadein">
+                                    <img src="./images/location/charm/charm-card01.jpg" alt="都市と自然が調和する世田谷で描く理想の暮らし。">
+                                    <span class="top-mv-desc">image photo</span>
+                                </div>
+                                <div class="charm-card__img fadein">
+                                    <img src="./images/location/charm/charm-card02.jpg" alt="都市と自然が調和する世田谷で描く理想の暮らし。">
+                                    <span class="top-mv-desc">image photo</span>
+                                </div>
+                            </div>
+                            <div class="charm-card__txt fadein">
+                                <h3 class="section__ttl">レトロな魅力とトレンドが<br>共存する三軒茶屋。</h3>
+                                <p class="section__txt">
+                                    東急田園都市線「桜新町」駅から<br>「三軒茶屋」駅まで<br class="sp">直通5分（4分）。<br>レトロな面影を残し、<br class="sp">買い物・食事・文化を満喫できる。<br>新旧の多様な表情を持つ<br class="sp">魅力ある街です。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="charm-card fadein">
+                            <div class="charm-card__img">
+                                <img src="./images/location/charm/charm-card03.jpg" alt="都市と自然が調和する世田谷で描く理想の暮らし。">
+                                <span class="top-mv-desc">image photo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SECTION LOCATION SECTION -->
+                <div class="section-location -mid">
+                    <img src="./images/location/common/section-location02.jpg" alt="使いこなす。" class="pc">
+                    <img src="./images/location/common/section-location02-sp.jpg" alt="使いこなす。" class="sp">
+                    <div class="section-location-block">
+                        <div class="section-location__txt fadein">
+                            <p>潤いある住環境。</p>
+                            <p>自然と都市が溶け合う</p>
+                        </div>
+                    </div>
+                    <span class="top-mv-desc">砧公園（約2.3km）</span>
+                </div>
+
+            </div>
+
+            <!-- CHARM SECTION -->
+            <div class="nature">
+                <div class="nature-card fadein">
+                    <h3 class="section__ttl">自然とふれあう<br class="sp">癒しの空間を身近に。</h3>
+                    <p class="section__txt">
+                        都心とほどよい距離にありながら、<br>「砧公園」「JRA馬事公苑」<br class="sp">「駒沢オリンピック公園」などの<br>大規模公園をはじめ、<br>自然とふれあいながら<br
+                            class="sp">過ごせる落ち着いた<br>住環境が整っています。
+                    </p>
+                </div>
+
+                <div class="nature-row">
+                    <div class="nature-col">
+                        <div class="nature-col__img fadein">
+                            <img src="./images/location/nature/nature-col01.png" alt="レトロな魅力とトレンドが共存する三軒茶屋。">
+                            <span class="top-mv-desc">image photo</span>
+                        </div>
+                        <div class="nature-col__img fadein">
+                            <img src="./images/location/nature/nature-col02.jpg" alt="レトロな魅力とトレンドが共存する三軒茶屋。">
+                            <span class="top-mv-desc">砧公園（約2.3km）</span>
+                        </div>
+                    </div>
+                    <div class="nature-col">
+                        <div class="nature-col__img fadein">
+                            <img src="./images/location/nature/nature-col03.jpg" alt="レトロな魅力とトレンドが共存する三軒茶屋。">
+                            <span class="top-mv-desc">砧公園（約2.3km）</span>
+                        </div>
+                        <div class="nature-col__img fadein">
+                            <img src="./images/location/nature/nature-col04.jpg" alt="レトロな魅力とトレンドが共存する三軒茶屋。">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PARKS SECTION -->
+            <div class="parks">
+                <div class="p-container fadein">
+                    <h4 class="parks__ttl">周辺の大規模公園</h4>
+                    <div class="parks-row">
+                        <div class="parks-col">
+                            <img src="./images/location/parks/parks-col01.jpg" alt="周辺の大規模公園">
+                            <p class="parks-col__txt">
+                                砧公園
+                                <span class="fs-sm">（約</span>
+                                <span class="fs-sm">2.3</span>
+                                <span class="fs-sm">km）</span>
+                            </p>
+                        </div>
+                        <div class="parks-col">
+                            <img src="./images/location/parks/parks-col02.jpg" alt="周辺の大規模公園">
+                            <p class="parks-col__txt">
+                                JRA馬事公苑
+                                <span class="fs-sm">（約</span>
+                                <span class="fs-sm">1.3</span>
+                                <span class="fs-sm">km）</span>
+                            </p>
+                        </div>
+                        <div class="parks-col">
+                            <img src="./images/location/parks/parks-col03.jpg" alt="周辺の大規模公園">
+                            <p class="parks-col__txt">
+                                駒沢オリンピック公園
+                                <span class="fs-sm">（約</span>
+                                <span class="fs-sm">1.6</span>
+                                <span class="fs-sm">km）</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ADDRESS SECTION -->
+            <div class="address">
+                <div class="p-container">
+                    <div class="address-wpr">
+                        <div class="address-card fadein">
+                            <img src="./images/location/common/address-card01.jpg" alt="都市と自然が調和する世田谷で描く理想の暮らし。">
+                            <span class="address-card__note">周辺概念図</span>
+                        </div>
+                        <div class="address-card fadein">
+                            <h3 class="address__ttl">羨望の街が集う地、<br>世田谷アドレス。</h3>
+                            <p class="address__txt">
+                                世田谷区は人口約90万人を超え<br class="pc">23区<br class="sp">内1位<span>※1</span>でありながら、<br
+                                    class="pc">公園数でも23区内2位<span>※2</span>と上位に位置しています。<br>また、区内には「二子玉川」や「三軒茶屋」をはじめ<br
+                                    class="pc">「下北沢」など多世代に親しまれる<br class="pc">個性的で魅力的な街がたくさんある、<br class="pc">人気の行政区です。
+                            </p>
+                        </div>
+                    </div>
+                    <p class="location__note">※1「東京都の人口（推計）」の概要／出典：東京都総務局（2024年4月1日現在）<br>
+                        ※2「東京都都市公園等区市町村別面積・人口割比率表」／出典：東京都建設局（2023年4月1日現在）<br>
+                        ※掲載の周辺概念図は一部路線・道路・施設等を抜粋して表記しています。</p>
+                </div>
+
+            </div>
+
+            <!-- STABLE SECTION -->
+            <div class="stable">
+                <div class="p-container">
+                    <div class="stable-top-row fadein">
+                        <div class="stable-top-col">
+                            <img src="./images/location/stable/stable-top-col01.jpg" alt="武蔵野台地に支えられた安定した地盤。">
+                            <span class="location__txt">標高概念図</span>
+                        </div>
+                        <div class="stable-top-col">
+                            <h2 class="stable-top-col__ttl">武蔵野台地に支えられた<br>安定した地盤。</h2>
+                            <p class="stable-top-col__txt">現地は強固な地盤として知られる武蔵野台地に位置。世田谷区内、沿線の他の街と比べても高台にあります。</p>
+                        </div>
+                    </div>
+                    <div class="stable-btm-row fadein">
+                        <div class="stable-btm-col">
+                            <img src="./images/location/stable/stable-btm-col01.png" alt="武蔵野台地に支えられた安定した地盤。"
+                                class="pc">
+                            <img src="./images/location/stable/stable-btm-col01-sp.png" alt="武蔵野台地に支えられた安定した地盤。"
+                                class="sp">
+                        </div>
+                        <ul class="stable-btm-col">
+                            <li class="stable-btm-col__txt">
+                                「渋谷」駅<br class="sp">
+                                <span class="fs-sm">（約
+                                    <span class="fs-lg">20.3</span>
+                                    <span class="fs-md">m</span>）</span>
+                            </li>
+                            <li class="stable-btm-col__txt">
+                                「三軒茶屋」駅<br class="sp">
+                                <span class="fs-sm">（約
+                                    <span class="fs-lg">33.1</span>
+                                    <span class="fs-md">m</span>）</span>
+                            </li>
+                            <li class="stable-btm-col__txt">
+                                シティハウス弦巻<br class="sp">
+                                <span class="fs-sm">（約
+                                    <span class="fs-lg">36.4</span>
+                                    <span class="fs-md">m</span>）</span>
+                            </li>
+                            <li class="stable-btm-col__txt">
+                                「用賀」駅<br class="sp">
+                                <span class="fs-sm">（約
+                                    <span class="fs-lg">34.9</span>
+                                    <span class="fs-md">m</span>）</span>
+                            </li>
+                            <li class="stable-btm-col__txt">
+                                「二子玉川」駅<br class="sp">
+                                <span class="fs-sm">（約
+                                    <span class="fs-lg">12.8</span>
+                                    <span class="fs-md">m</span>）</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="location__note">
+                        ※掲載の標高は「国土地理院ウェブサイト」にて検索（2024年5月現在）したものです。<br>
+                        （計測地/【シティハウス弦巻】東京都世田谷区弦巻3丁目18、【JR山手線 渋谷駅】東京都渋谷区道玄坂2-1-1 、【東急田園都市線
+                        二子玉川駅】東京都世田谷区玉川2-22-13、【東急田園都市線 三軒茶屋駅】東京都世田谷区太子堂2-15、【東急田園都市線 用賀駅】東京都世田谷区用賀2-39</p>
+                </div>
+            </div>
+
+            <div class="location__note -btm">
+                <div class="p-container">
+                    ※掲載の所要時間は待ち時間・乗り換え時間を含んだ通勤時(カッコ内は平常時)の目安であり、時間帯により多少異なります。<br>※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の写真は2024年5月撮影。<br>※掲載の情報は2024年3月現在のものです。店舗・施設の内容等は将来変わる可能性があります。
+                </div>
+            </div>
+
+            <!-- LOCATION TAB SECTION -->
+            <div class="location-tab">
+                <a href="#" class="location-tab__link -blue"><span>都市と自然が調和する<br class="sp">世田谷アドレス</span></a>
+                <a href="./location02.html" class="location-tab__link"><span>閑静な住環境と利便性を<br class="sp">備えた桜新町</span></a>
+            </div>
+
+            <!-- 物件エントリー -->
+            <div class="entry">
+                <div class="container">
+                    <script type="text/javascript"
+                        src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1&LINK=entry"></script>
+                    <!--エントリーボタン-->
+                    <!-- <div class="entry-btn entry-btn--2">
+                        <p class="entry-btn-p">オンライン<br>見学会予約</p><a
+                            href="https://www.sumitomo-rd-mansion.jp/tokai/higashibetsuin/catalog.cgi" target="_blank">
+                            <p>資料請求</p>
+                        </a>
+                    </div> -->
+                    <!--エントリーボタン-->
+                    <script type="text/javascript"
+                        src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1"></script>
+                    <!--リンク--><!--リンク-->
+                    <div class="entry-tel">
+                        <p>お問い合わせは</p>
+                        <a href="tel:0120285644" class="entry-tel__num">
+                            <!-- <img src="./images/common/icn_entry-tel.png"
+                                alt=""> -->
+                            <span class="f-en">0120-285-644</span></a><br>
+                        <a href="mailto:ch-tsurumaki@j.sumitomo-rd.co.jp" class="disabled">ch-tsurumaki@j.sumitomo-rd.co.jp</a>
+                    </div>
+                    <p class="entry-info">営業時間／10:00～18:00<br class="sp">（火・水曜定休(祝日除く)、年末年始は休業）</p>
+                </div>
+            </div>
+            <!-- / entry -->
+        </main>
+
+        <footer class="footer">
+            <nav class="footer-menu">
+                <div class="container">
+                    <ul>
+                        <li class="start top"><a href="./">トップページ</a></li>
+                        <li class="concept"><a href="concept.html">コンセプト</a></li>
+                        <li class="design">デザイン</li>
+                        <li class="public">共用空間</li>
+                        <li class="private">室内空間</li>
+                        <li class="roomplan">間取り</li>
+                        <li class="equipment">設備・仕様</li>
+                        <li class="structure">構造・防災</li>
+                        <li class="location"><a href="location01.html">ロケーション</a></li>
+                        <li class="access"><a href="access.html">アクセス</a></li>
+                        <li class="start map"><a href="map.html" target="_blank">現地案内図</a></li>
+                        <li class="outline"><a href="javascript:outline()">物件概要</a></li>
+                        <li class="blog"><a href="javascript:blog();">マンション情報ブログ</a></li>
+                        <li class="faq"><a href="/XXX/YYY/faq.cgi" target="_blank">FAQ</a></li>
+                        <li class="sitemap"><a href="sitemap.html">サイトマップ</a></li>
+                        <!-- <li class="reserve">オンライン見学会予約</li>
+                        <li class="request"><a href="https://www.sumitomo-rd-mansion.jp/tokai/higashibetsuin/catalog.cgi?_gl=1*va1137*_gcl_au*MTc0NzUzNzM5Mi4xNzEyODMwODg5*_ga*MjQ5NDUyODkyLjE3MTI4MzA4ODk.*_ga_J7PKRFGJ1C*MTcxNDUzNTAzMS4xOC4xLjE3MTQ1MzkwODkuNDIuMC4w" target="_blank">資料請求</a></li> -->
+                        <script type="text/javascript"
+                            src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1&LINK=footer"></script>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="footer-recommend">
+
+                <div class="container">
+                    <ul class="footer-recommend__menu f-min">
+                        <li>桜新町 マンション</li>
+                        <li>桜新町 新築マンション</li>
+                        <li>シティハウス弦巻</li>
+                        <li>東京都世田谷区</li>
+                        <li>東急田園都市線</li>
+                        <li>桜新町駅</li>
+                        <li>新築分譲マンション</li>
+                        <li>住友不動産</li>
+                        <li>すみふ桜新町</li>
+                    </ul>
+
+                    <!-- おススメ物件 -->
+                    <p class="footer-recommend__ttl">おすすめ物件</p>
+                    <script type="text/javascript"
+                        src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1"></script>
+                    <!-- //おススメ物件 -->
+                </div>
+            </div>
+            <div class="footer-logo">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="/official/" target="_blank"><img src="./images/common/logo01.png"
+                                    alt="住友不動産のマンション 公式サイト"></a>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank"><img src="./images/common/logo02.png"
+                                    alt="住友不動産のマンション 物件総合サイト"></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="/gallery/" target="_blank"><img src="./images/common/logo03.png"
+                                    alt="総合マンションギャラリー"></a>
+                        </li>
+                        <li>
+                            <a href="/brand/" target="_blank"><img src="./images/common/logo04.png" alt="光景となる象徴"></a>
+                        </li>
+                        <li>
+                            <a href="/su-my_club/" target="_blank"><img src="./images/common/logo05.png"
+                                    alt="住まいクラブ"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-wrapper f-min">
+                <div class="position-relative">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="http://www.sumitomo-rd.co.jp/privacy_policy/" target="_blank"><i
+                                        class="fa-solid fa-angle-right"></i>個人情報保護方針・個人情報のお取り扱い</a>
+                            </li>
+                            <li>
+                                <a href="https://www.sumitomo-rd.co.jp/security_policy/" target="_blank"><i
+                                        class="fa-solid fa-angle-right"></i>情報セキュリティ基本方針</a>
+                            </li>
+                            <li>
+                                <a href="/cmn2013/html/caution.html" target="_blank"><i
+                                        class="fa-solid fa-angle-right"></i>ご利用上の注意</a>
+                            </li>
+                            <li>
+                                <a href="/cmn2013/html/about.html" target="_blank"><i
+                                        class="fa-solid fa-angle-right"></i>掲載物件情報について</a>
+                            </li>
+                            <li>
+                                <a href="/cmn2013/html/browser.html" target="_blank"><i
+                                        class="fa-solid fa-angle-right"></i>推奨環境について</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="http://www.sumitomo-rd.co.jp/" class="footer-wrapper__logo" target="_blank"><img
+                            src="./images/common/ft_logo.png" alt="住友不動産"></a>
+                    <p class="copyright">Copyright &copy; Sumitomo Realty & Development Co., Ltd.</p>
+                </div>
+            </div>
+            <div class="footer-btn">
+                <div class="float-btn">
+                    <script type="text/javascript"
+                        src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1&LINK=float"></script>
+                    <!-- <p class="bg_btn--gray">オンライン<br>見学会予約</p>
+                    <a href="https://www.sumitomo-rd-mansion.jp/tokai/higashibetsuin/catalog.cgi" target="_blank"
+                        class="bg_btn bg_btn--btn001">
+                        <p>資料請求</p>
+                    </a> -->
+                </div>
+                <div class="fixed-btn">
+                    <a href="tel:00000000000">
+                        <p><img src="./images/common/icn_tel.png" alt="電話問合せ"><br>電話問合せ</p>
+                    </a>
+                    <a href="map.html" target="_blank">
+                        <p><img src="./images/common/icn_map.png" alt="現地案内図"><br>現地案内図</p>
+                    </a>
+                    <a href="/XXX/YYY/catalog.cgi" target="_blank" class="fixed-btn__mail">
+                        <p><img src="./images/common/icn_mail.png" alt="資料請求"><br>資料請求</p>
+                    </a>
+                    <a href="javascript:openfraijo();" class="fixed-btn__btn002">
+                        <p><img src="./images/common/icn_reserve.png" alt="来場予約"><br>来場予約</p>
+                    </a>
+                    <div id="sp-menu-btn-ft" class="hamburger">
+                        <div class="hamburger-wrapper">
+                            <div class="menu-trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <p>MENU</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="spfraijo" class="sp">
+                    <script type="text/javascript"
+                        src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1&LINK=sp-footer"></script>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/pop.js"></script>
+    <script src="./js/area-accordion.js"></script>
+    <script type="text/javascript" src="/proptopics/js/topics.js" charset="EUC-JP"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/location.js"></script>
+    <script src="./js/fadeIn.js"></script>
+    <script src="./js/top.js"></script>
+    <script src="./js/zoomEffect.js"></script>
+    <script type="text/javascript" src="./js/leaflet.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+    <script src="./js/imgViewer2.js"></script>
+    <script>
+        (function ($) {
+            if ($(window).width() < 641) {
+                $(window).on("load", function () {
+                    var $img = $(".image").imgViewer2({
+                        onReady: function () {
+                            this.setZoom(2);
+                            this.setZoom(1);
+                        }
+                    }
+                    );
+                });
+            }
+        })(jQuery);
+    </script>
+    <!-- アクセス履歴タグ挿入 begin -->
+    <img src="/bukken_access.cgi?AREA_CD=tokai&amp;PROP_CD=izumi1" width="1" height="1" id="adtag">
+    <!-- アクセス履歴タグ挿入 end -->
+
+    <!-- Google Tag Manager begin -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M7LSST" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M7LSST');</script>
+    <!-- Google Tag Manager end -->
+    <script>
+        function autoClick(buttonId) {
+            var button = document.getElementById(buttonId);
+            // Check if the button is in the viewport
+            var rect = button.getBoundingClientRect();
+            var isInViewport = (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+
+            if (isInViewport) {
+                button.click(); // Click the button
+            }
+        }
+
+        // Call autoClick for each button every 5 seconds
+        setInterval(function () {
+            autoClick('autoClickButton1');
+            autoClick('autoClickButton2');
+            autoClick('autoClickButton3');
+        }, 10000);
+    </script>
+</body>
+
+</html>

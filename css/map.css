@@ -1,0 +1,836 @@
+/******************************************************
+
+ head
+ 
+******************************************************/
+@media print {
+  * html {
+    text-align: center;
+  }
+
+  @page {
+    margin: 0mm 5mm;
+  }
+
+  body {
+    padding-top: 5mm;
+    width: 210mm;
+    height: auto;
+  }
+
+  .header-right,
+  .entry h2,
+  .entry .entry-btn,
+  .entry .entry-corona,
+  .footer,
+  #btnArea,
+  .container .txt {
+    display: none !important;
+  }
+
+  header {
+    display: block;
+  }
+
+  h2.ttl {
+    /* margin: -4mm 0 0 !important; */
+    /* transform: scale(0.8); */
+  }
+
+  .map__ttl {
+    width: 100%;
+    margin: -2mm 70mm !important;
+    transform: scale(0.8);
+  }
+
+  #submaincontainer {
+    width: 100% !important;
+  }
+
+  #submaincontainer .mapArea {
+    width: 150mm;
+    text-align: center;
+    margin: auto;
+  }
+
+  #submaincontainer #map1 {
+    width: 150mm;
+  }
+
+  #submaincontainer .zip {
+    margin: -2mm auto 0 !important;
+    transform: scale(0.8);
+  }
+
+  .entry {
+    margin-top: -8mm !important;
+    padding: 0 !important;
+  }
+
+  .entry .entry-tel {
+    margin-top: -2mm !important;
+  }
+
+  .entry .entry-tel__num {
+    margin-left: -16mm !important;
+  }
+
+  .entry .entry-info {
+    margin-top: -1mm !important;
+  }
+
+  #submaincontainer #map1 img {
+    width: 180mm;
+  }
+}
+
+/*-------------------------------------------------------------------*/
+html,
+body {
+  background: #fff;
+}
+
+#btnArea {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#GoogleMap {
+  width: 50%;
+  text-align: center;
+}
+
+#GoogleMap img {
+  margin: auto;
+}
+
+#PrintMap {
+  width: 50%;
+  text-align: center;
+}
+
+#PrintMap img {
+  margin: auto;
+}
+
+.mr {
+  padding-right: 20px;
+}
+
+h2.ttl {
+  margin: 190px 0 75px 0;
+  text-align: center;
+}
+
+#submaincontainer .zip {
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Shippori Mincho";
+  margin: 40px auto 67px;
+  color: #000000;
+  text-align: center;
+}
+
+#submaincontainer .zip span {
+  font-size: 12px;
+  /* display: block; */
+  margin-bottom: 5px;
+}
+
+#submaincontainer .container {
+  margin: 30px auto 30px auto;
+}
+
+#subheader {
+  width: 630px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  float: none;
+  height: 70px;
+}
+
+#subheader h2 {
+  width: 278px;
+  float: left;
+}
+
+#subheader dl {
+  width: 236px;
+  float: right;
+}
+
+#subheader dt {
+  width: 119px;
+  float: left;
+}
+
+#subheader dd {
+  width: 117px;
+  float: left;
+}
+
+#subwrapper {
+  background-color: #000;
+  line-height: 160%;
+}
+
+#submaincontainer {
+  width: 1300px;
+  margin: 0 auto 0 auto;
+  font-size: 10px;
+  color: #000;
+  padding-inline: 20px;
+}
+
+#submaincontainer dl {
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-left: 0;
+  width: 355px;
+}
+
+#submaincontainer dt {
+  width: 194px;
+  float: left;
+}
+
+#submaincontainer dd {
+  float: left;
+}
+
+#footerbana {
+  display: none;
+}
+
+#subfooter {
+  height: 85px;
+  position: relative;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  width: 700px;
+  clear: both;
+}
+
+#subfooter #footmail {
+  /*width:250px;*/
+  width: 230px;
+  height: 12px;
+  position: absolute;
+  z-index: 5;
+  left: 0px;
+  top: 55px;
+  overflow: hidden;
+}
+
+#subfooter #freedial {
+  width: 700px;
+  height: 68px;
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+#subfooter #freedial img {
+  width: 960px;
+  max-width: 960px;
+}
+
+#subfooter #footseotext {
+  font-size: 10px;
+  line-height: 12px;
+  color: #999;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  width: 630px;
+}
+
+.cap {
+  font-size: 10px;
+  line-height: 150%;
+  color: #666666;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#subfooter_sp {
+  display: none;
+}
+
+#footer_cp {
+  display: none;
+}
+
+#map2 {
+  width: 630px;
+}
+
+#parkingTxt {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #ffffff;
+  line-height: 1.2em;
+  padding: 0.4em 0;
+  background-color: #000000;
+}
+
+#parkingTxt span {
+  white-space: nowrap;
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* w1600 Site*/
+/**************************************************************************************/
+/**************************************************************************************/
+@media screen and (max-width: 1600px) {
+
+  h1,
+  #h_btn002,
+  #h_btn003,
+  #h_btn001,
+  #submaincontainer dl {
+    /*display:none;*/
+  }
+
+  #submaincontainer {
+    /* width: 81.56vw; */
+    /* width: 84.06vw; */
+    max-width: 1140px;
+    padding-inline: 20px;
+  }
+
+  #submaincontainer #map1 {
+    /*width:30.312vw;*/
+    width: 84.06vw;
+    margin: 0 auto 0 auto;
+  }
+
+  #GoogleMap {
+    width: 35.6%;
+  }
+
+  #PrintMap {
+    width: 35.6%;
+  }
+
+  #submaincontainer #map1 img {
+    width: 700px;
+
+    /*height:53.125vw;/*
+}
+
+#submaincontainer #map2{
+	width:30.312vw;
+	margin:0 auto 0 auto;
+}
+
+#submaincontainer #map2 img{
+	width:30.312vw;
+	height:13.5vw;
+}
+
+
+
+/*-------------------------------------------------------------------*/
+    html,
+    body {
+      background: #fff;
+    }
+
+    #GoogleMap {
+      display: block;
+      margin-top: 0.625vw;
+    }
+
+    .mr {
+      padding-right: 1.25vw;
+    }
+
+    #submaincontainer .ttl {
+      height: 1.563vw;
+      margin: 2.5vw 0px 0;
+      background: #000;
+
+      color: #fff;
+      font-weight: bold;
+      padding: 0.313vw 0px 0px 1.563vw;
+      font-size: 0.875vw;
+    }
+
+    #submaincontainer .ttl img {
+      float: left;
+    }
+
+    #subheader {
+      width: 39.375vw;
+      margin-top: 1.25vw;
+      margin-right: auto;
+      margin-left: auto;
+      clear: both;
+      float: none;
+      height: 4.375vw;
+    }
+
+    #subheader h2 {
+      width: 17.375vw;
+      float: left;
+    }
+
+    #subheader dl {
+      width: 14.75vw;
+      float: right;
+    }
+
+    #subheader dt {
+      width: 7.438vw;
+      float: left;
+    }
+
+    #subheader dd {
+      width: 7.313vw;
+      float: left;
+    }
+
+    #subwrapper {
+      background-color: #000;
+      line-height: 160%;
+    }
+
+    #submaincontainer {
+      width: 700px;
+      margin: 0 auto 0 auto;
+      font-size: 0.625vw;
+      color: #666;
+    }
+
+    #submaincontainer dl {
+      margin-top: 0;
+      margin-right: auto;
+      margin-bottom: 0;
+      margin-left: auto;
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 1.25vw;
+      padding-left: 0;
+      width: 22.188vw;
+    }
+
+    #submaincontainer dt {
+      width: 12.125vw;
+      float: left;
+    }
+
+    #submaincontainer dd {
+      float: left;
+    }
+
+    #footerbana {
+      display: none;
+    }
+
+    #subfooter {
+      height: 5.313vw;
+      position: relative;
+      margin-top: 0.938vw;
+      margin-right: auto;
+      margin-bottom: 0;
+      margin-left: auto;
+      width: 43.75vw;
+      clear: both;
+    }
+
+    #subfooter #footmail {
+      /*width:15.625vw;*/
+      width: 14.375vw;
+      height: 0.75vw;
+      position: absolute;
+      z-index: 5;
+      left: 0px;
+      top: 3.438vw;
+      overflow: hidden;
+    }
+
+    #subfooter #freedial {
+      width: 43.75vw;
+      height: 4.25vw;
+      position: absolute;
+      z-index: 0;
+      left: 0px;
+      top: 0px;
+      overflow: hidden;
+    }
+
+    #subfooter #freedial img {
+      width: 60vw;
+      max-width: 60vw;
+    }
+
+    #subfooter #footseotext {
+      font-size: 0.625vw;
+      line-height: 0.75vw;
+      color: #999;
+      text-align: left;
+      position: absolute;
+      left: 0px;
+      top: 5vw;
+      width: 39.375vw;
+    }
+
+    .cap {
+      font-size: 0.625vw;
+      line-height: 150%;
+      color: #666666;
+      margin-bottom: 0.625vw;
+      margin-top: 0.625vw;
+    }
+
+    #subfooter_sp {
+      display: none;
+    }
+
+    #footer_cp {
+      display: none;
+    }
+
+    #map1 {
+      width: 43.75vw;
+    }
+
+    #map2 {
+      width: 39.375vw;
+    }
+
+    #parkingTxt {
+      text-align: center;
+      font-size: 1vw;
+      font-weight: bolder;
+      color: #ffffff;
+      line-height: 1.2em;
+      padding: 0.4em 0;
+      background-color: #000000;
+    }
+
+    #parkingTxt span {
+      white-space: nowrap;
+    }
+  }
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* w1300 Site*/
+/**************************************************************************************/
+/**************************************************************************************/
+@media screen and (max-width: 1300px) {
+  #submaincontainer {
+    width: 100%;
+  }
+
+  #submaincontainer #map1 {
+    /*width:30.312vw;*/
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+
+  #btnArea {
+    /* display: block; */
+    width: 100%;
+  }
+
+  #btnArea img {
+    margin-top: 40px;
+    //margin-left: calc((100vw - 560px) / 2);
+  }
+
+  #GoogleMap {
+    width: 100vw;
+  }
+
+  #PrintMap {
+    width: 100vw;
+  }
+
+  #submaincontainer .zip span {
+    /* display: block; */
+    margin-top: 40px;
+  }
+
+  .cap {
+    text-align: center;
+  }
+}
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* SP Site*/
+/**************************************************************************************/
+/**************************************************************************************/
+@media screen and (max-width: 767px) {
+  #btnArea {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #head {
+    width: 100%;
+    height: 65px;
+  }
+
+  #head h1 {
+    /*width:100%;*/
+  }
+
+  #head .logo {
+    position: absolute;
+    width: 186px;
+    height: 62px;
+    top: 5px;
+    left: 0px;
+  }
+
+  #btnArea {
+    display: block;
+    width: 100%;
+  }
+
+  #GoogleMap {
+    width: 100%;
+    margin: auto;
+  }
+
+  #GoogleMap img {
+    width: 69%;
+    margin: auto;
+  }
+
+  #h_btn002 {
+    display: none;
+  }
+
+  #h_btn003 {
+    display: none;
+  }
+
+  #h_btn004 {
+    display: none;
+  }
+
+  #h_btn001 {
+    display: none;
+  }
+
+  #submaincontainer {
+    width: 100%;
+  }
+
+  #submaincontainer .ttl {
+    width: 60%;
+    height: auto;
+    margin: 40px 0 40px 20px;
+    font-size: 30px;
+  }
+
+  #submaincontainer .zip {
+    font-size: 22px;
+    margin: 32px auto 20px;
+  }
+
+  #submaincontainer .zip span {
+    font-size: 10px;
+    margin-top: 13px;
+    margin-bottom: unset;
+  }
+
+  .map_cap1 {
+    width: 96%;
+    margin: 2%;
+  }
+
+  .map_cap2 {
+    width: 96%;
+    margin: 6% 2% 2% 2%;
+  }
+
+  .cap {
+    width: 84%;
+    margin: 8%;
+    text-align: center;
+  }
+
+  #footerbana {
+    height: 100%;
+  }
+
+  #footerbana .btn002 {
+    height: 100%;
+  }
+
+  #footerbana .btn003 {
+    height: 100%;
+  }
+
+  #footerbana .btn001 {
+    height: 100%;
+  }
+
+  #footerbana {
+    display: block;
+  }
+
+  #subfooter {
+    display: none;
+  }
+
+  #subfooter_sp {
+    display: block;
+    margin-top: 4px;
+  }
+
+  #footer_cp {
+    background: #fff;
+    display: block;
+  }
+
+  #map1 {
+    width: 100%;
+  }
+
+  #map2 {
+    width: 100%;
+  }
+
+  #parkingTxt {
+    font-size: 15px;
+    line-height: 1.3em;
+    padding: 0.2em 0;
+  }
+}
+
+.map__ttl {
+  color: #231815;
+  font-size: 40px;
+  letter-spacing: 0.016em;
+  font-weight: 400;
+  font-family: "Cormorant Infant";
+  text-align: start;
+  margin: 23px 0;
+}
+
+.map__ttl span {
+  font-size: 10px;
+  line-height: 40px;
+  font-family: "Shippori Mincho";
+}
+
+.map__txt {
+  font-size: 10px;
+  line-height: 17.5px;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+
+.mapArea__txt {
+  display: none;
+}
+
+#submaincontainer .container {
+  margin: 14px auto 78px auto;
+}
+
+@media (min-width: 768px) {
+  .map__ttl {
+    font-size: 80px;
+    letter-spacing: 0.016em;
+    font-weight: 400;
+    margin: 79px 0 44px;
+    text-align: center;
+  }
+
+  .map__ttl span {
+    font-size: 20px;
+  }
+  .mapArea-txts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .map__txt {
+    font-size: 12px;
+    line-height: 21px;
+    text-align: start;
+    font-family: "Zen Kaku Gothic New";
+    color: #000;
+    /* margin-left: 150px; */
+  }
+
+  .mapArea__txt {
+    text-align: end;
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: "Zen Kaku Gothic New";
+  }
+
+  #submaincontainer .container {
+    margin: 30px auto 30px auto;
+  }
+}
+/* 
+.area-box {
+  position: relative;
+  overflow: hidden;
+}
+.area .area-box{
+  margin-block: 20px 5px;
+}
+
+#image-container {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  position: relative;
+}
+
+#image {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.25s ease;
+}
+
+#controls {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #000000;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  font-size: 20px;
+} */

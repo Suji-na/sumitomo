@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+.location-mv-txt {
+    padding: 2em 0;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2;
+    letter-spacing: .1em;
+    color: #fff;
+    background: url(../images/location/background.jpg) no-repeat center / cover;
+	font-family: "RyuminPro", "GaramondPro", serif;
+	font-weight: bolder;
+}
+
+@media screen and (max-width: 639px) {
+    .location-mv-txt {
+        font-size: 3.75vw;
+    }
+}
+
+.location-sec {
+    margin-top: 140px;
+    font-size: 2.2rem;
+    line-height: 2.22;
+    letter-spacing: .1em;
+	font-family: "RyuminPro", "GaramondPro", serif;
+}
+
+.location-sec--3 {
+    padding: 75px 0 85px;
+    background-color: #f8f4ee;
+}
+
+.location-sec-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.location-sec--1 .location-sec__left {
+    width: 38%;
+}
+
+.location-sec--1 .location-sec__right {
+    width: 57%;
+}
+
+.location-sec--2 .location-sec__left {
+    width: 55%;
+}
+
+.location-sec--2 .location-sec__right {
+    width: 38%;
+    letter-spacing: .08em;
+}
+
+.location-sec--3 .location-sec__left {
+    width: 44%;
+}
+
+.location-sec--3 .location-sec__right {
+    width: 59%;
+    margin-left: -3%;
+}
+
+.location-sec-ttl {
+    margin-bottom: 45px;
+}
+
+.location-subtxt {
+    margin-top: 3em;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.location-sec .figure-caption {
+    margin-top: 1em;
+    text-align: right;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.location-sec--2 .location-sec__right figure {
+    margin-top: 3em;
+}
+
+.location-sec--2 .location-sec__right dl dt {
+    margin: 1.5em 0 1em;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    border-bottom: 1px solid #d1cabd;
+}
+
+.location-sec--3 .location-sec__left>p {
+    width: 82%;
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    .location-sec__left {
+        width: 100% !important;
+    }
+    .location-sec__right {
+        width: 100% !important;
+        margin-top: 40px;
+    }
+    .location-sec--3 .location-sec__left>p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .location-sec {
+        margin-top: 16vw;
+        font-size: 1.4rem;
+    }
+    .location-sec-ttl {
+        margin-bottom: 30px;
+    }
+}
